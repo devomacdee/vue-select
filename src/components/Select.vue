@@ -5,7 +5,7 @@
 
   .v-select .open-indicator {
     position: absolute;
-    bottom: 6px;
+    bottom: -3px;
     right: 10px;
     display: inline-block;
     cursor: pointer;
@@ -26,8 +26,8 @@
     border-width: 0.25em 0.25em 0 0;
     content: '';
     display: inline-block;
-    height: 10px;
-    width: 10px;
+    height: 6px;
+    width: 6px;
     vertical-align: top;
     transform: rotate(133deg);
     transition: all 150ms cubic-bezier(1.000, -0.115, 0.975, 0.855);
